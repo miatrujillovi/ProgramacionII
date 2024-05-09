@@ -1,0 +1,1 @@
+Este software crea una base de datos, ademas de explorar las opciones que nos brinda ifstream, ofstream y fstream para modificarlo o guardar su información en variables.
