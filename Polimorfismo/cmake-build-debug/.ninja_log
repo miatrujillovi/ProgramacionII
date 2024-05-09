@@ -1,0 +1,19 @@
+# ninja log v5
+102	1364	7362967802806464	CMakeFiles/Polimorfismo.dir/Oso.cpp.obj	64be09f13c513b68
+0	1365	7362967802756446	CMakeFiles/Polimorfismo.dir/main.cpp.obj	80a2a9f27980d138
+115	1365	7362967802786455	CMakeFiles/Polimorfismo.dir/Perro.cpp.obj	157d3b342fea06c7
+14	1366	7362967802776449	CMakeFiles/Polimorfismo.dir/Animal.cpp.obj	706361102fb5b6f
+88	1366	7362967802776449	CMakeFiles/Polimorfismo.dir/Mono.cpp.obj	935c931f534cd3df
+46	1367	7362967802816435	CMakeFiles/Polimorfismo.dir/Cerdo.cpp.obj	b1351cd1d53984a
+29	1367	7362967802861713	CMakeFiles/Polimorfismo.dir/Leon.cpp.obj	a779cd251ebf0c26
+60	1368	7362967802886939	CMakeFiles/Polimorfismo.dir/Elefante.cpp.obj	14339f5ebb51659d
+72	1369	7362967802816435	CMakeFiles/Polimorfismo.dir/Gato.cpp.obj	9392104cb7dcb29b
+1370	2193	7362967810095345	Polimorfismo.exe	bc21ec6864a1d531
+0	561	7362968693034044	CMakeFiles/Polimorfismo.dir/main.cpp.obj	80a2a9f27980d138
+0	578	7362971913338962	CMakeFiles/Polimorfismo.dir/main.cpp.obj	80a2a9f27980d138
+1	1008	7362978702389722	CMakeFiles/Polimorfismo.dir/main.cpp.obj	80a2a9f27980d138
+1008	1288	7362978704675749	Polimorfismo.exe	bc21ec6864a1d531
+0	400	7362983157377450	CMakeFiles/Polimorfismo.dir/Animal.cpp.obj	706361102fb5b6f
+400	629	7362983159214186	Polimorfismo.exe	bc21ec6864a1d531
+1	278	7362984654216916	CMakeFiles/Polimorfismo.dir/main.cpp.obj	80a2a9f27980d138
+278	426	7362984655413816	Polimorfismo.exe	bc21ec6864a1d531
