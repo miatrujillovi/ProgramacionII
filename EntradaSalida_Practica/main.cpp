@@ -44,7 +44,6 @@ int main() {
         std::cerr << "Error al abrir archivo" << std::endl;
     }
     // Acomodar su informacion en struct Usuario
-    // TODO: HACER CON GETLINE
     while (fln >> Usuario.Nombre >> Usuario.Correo >> Usuario.Password);
 
     return 0;
