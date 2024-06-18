@@ -1,0 +1,3 @@
+C:/Users/kurom/ProgramacionII/Repaso_POO/cmake-build-debug/CMakeFiles/Repaso_POO.dir
+C:/Users/kurom/ProgramacionII/Repaso_POO/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kurom/ProgramacionII/Repaso_POO/cmake-build-debug/CMakeFiles/rebuild_cache.dir

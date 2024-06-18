@@ -1,0 +1,3 @@
+C:/Users/kurom/ProgramacionII/Referencias_Practica/cmake-build-debug/CMakeFiles/Referencias_Practica.dir
+C:/Users/kurom/ProgramacionII/Referencias_Practica/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kurom/ProgramacionII/Referencias_Practica/cmake-build-debug/CMakeFiles/rebuild_cache.dir
