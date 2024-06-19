@@ -59,7 +59,14 @@
 				8,
 				10,
 				12,
-				14
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28
 			]
 		}
 	],
@@ -103,7 +110,14 @@
 				8,
 				10,
 				12,
-				14
+				14,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28
 			]
 		},
 		{
@@ -116,7 +130,14 @@
 				7,
 				9,
 				11,
-				13
+				13,
+				15,
+				17,
+				19,
+				21,
+				23,
+				25,
+				27
 			]
 		}
 	],
@@ -203,6 +224,83 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "Inventario.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Habilidad.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Habilidad.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "BolaDeFuego.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "BolaDeFuego.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Curar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Curar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "ConfiguracionesJuego.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ConfiguracionesJuego.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Item.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Item.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Pocion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Pocion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Arma.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Arma.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

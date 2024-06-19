@@ -1,12 +1,10 @@
 # ninja log v5
 10	1370	7400003085547039	CMakeFiles/Repaso_POO.dir/Enemigo.cpp.obj	67ae6d2948bdcff0
+15	1381	7400003085712166	CMakeFiles/Repaso_POO.dir/Mago.cpp.obj	4cf391c692a3369b
 12	1376	7400003085577034	CMakeFiles/Repaso_POO.dir/Goblin.cpp.obj	835e5d7844fbe126
 21	1379	7400003085627033	CMakeFiles/Repaso_POO.dir/Orco.cpp.obj	37bdcab5389961a1
-18	1380	7400003085642093	CMakeFiles/Repaso_POO.dir/Guerrero.cpp.obj	ba2a47fc9cbeef02
 1	1380	7400003085672165	CMakeFiles/Repaso_POO.dir/main.cpp.obj	42696e9fb5c97f2a
-24	1381	7400003085742155	CMakeFiles/Repaso_POO.dir/Inventario.cpp.obj	6bdd90cfb109bf8a
-15	1381	7400003085712166	CMakeFiles/Repaso_POO.dir/Mago.cpp.obj	4cf391c692a3369b
-6	1382	7400003085682170	CMakeFiles/Repaso_POO.dir/Personaje.cpp.obj	cbe0f1fb97281ae6
-1382	1755	7400003089292373	Repaso_POO.exe	25a47f10d7edbe02
+18	1380	7400003085642093	CMakeFiles/Repaso_POO.dir/Guerrero.cpp.obj	ba2a47fc9cbeef02
 1	423	7400004067884315	CMakeFiles/Repaso_POO.dir/Inventario.cpp.obj	6bdd90cfb109bf8a
+6	1382	7400003085682170	CMakeFiles/Repaso_POO.dir/Personaje.cpp.obj	cbe0f1fb97281ae6
 423	622	7400004069595827	Repaso_POO.exe	25a47f10d7edbe02

@@ -105,6 +105,55 @@ build CMakeFiles\Repaso_POO.dir\Inventario.cpp.obj: CXX_COMPILER__Repaso_POO_uns
   TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
   TARGET_PDB = Repaso_POO.pdb
 
+build CMakeFiles\Repaso_POO.dir\Habilidad.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\Habilidad.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
+build CMakeFiles\Repaso_POO.dir\BolaDeFuego.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\BolaDeFuego.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
+build CMakeFiles\Repaso_POO.dir\Curar.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\Curar.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
+build CMakeFiles\Repaso_POO.dir\ConfiguracionesJuego.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\ConfiguracionesJuego.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
+build CMakeFiles\Repaso_POO.dir\Item.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\Item.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
+build CMakeFiles\Repaso_POO.dir\Pocion.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\Pocion.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
+build CMakeFiles\Repaso_POO.dir\Arma.cpp.obj: CXX_COMPILER__Repaso_POO_unscanned_Debug C$:\Users\kurom\ProgramacionII\Repaso_POO\Arma.cpp || cmake_object_order_depends_target_Repaso_POO
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\Repaso_POO.dir
+  OBJECT_FILE_DIR = CMakeFiles\Repaso_POO.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Repaso_POO.dir\
+  TARGET_PDB = Repaso_POO.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Repaso_POO
@@ -113,7 +162,7 @@ build CMakeFiles\Repaso_POO.dir\Inventario.cpp.obj: CXX_COMPILER__Repaso_POO_uns
 #############################################
 # Link the executable Repaso_POO.exe
 
-build Repaso_POO.exe: CXX_EXECUTABLE_LINKER__Repaso_POO_Debug CMakeFiles\Repaso_POO.dir\main.cpp.obj CMakeFiles\Repaso_POO.dir\Personaje.cpp.obj CMakeFiles\Repaso_POO.dir\Mago.cpp.obj CMakeFiles\Repaso_POO.dir\Guerrero.cpp.obj CMakeFiles\Repaso_POO.dir\Enemigo.cpp.obj CMakeFiles\Repaso_POO.dir\Goblin.cpp.obj CMakeFiles\Repaso_POO.dir\Orco.cpp.obj CMakeFiles\Repaso_POO.dir\Inventario.cpp.obj
+build Repaso_POO.exe: CXX_EXECUTABLE_LINKER__Repaso_POO_Debug CMakeFiles\Repaso_POO.dir\main.cpp.obj CMakeFiles\Repaso_POO.dir\Personaje.cpp.obj CMakeFiles\Repaso_POO.dir\Mago.cpp.obj CMakeFiles\Repaso_POO.dir\Guerrero.cpp.obj CMakeFiles\Repaso_POO.dir\Enemigo.cpp.obj CMakeFiles\Repaso_POO.dir\Goblin.cpp.obj CMakeFiles\Repaso_POO.dir\Orco.cpp.obj CMakeFiles\Repaso_POO.dir\Inventario.cpp.obj CMakeFiles\Repaso_POO.dir\Habilidad.cpp.obj CMakeFiles\Repaso_POO.dir\BolaDeFuego.cpp.obj CMakeFiles\Repaso_POO.dir\Curar.cpp.obj CMakeFiles\Repaso_POO.dir\ConfiguracionesJuego.cpp.obj CMakeFiles\Repaso_POO.dir\Item.cpp.obj CMakeFiles\Repaso_POO.dir\Pocion.cpp.obj CMakeFiles\Repaso_POO.dir\Arma.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

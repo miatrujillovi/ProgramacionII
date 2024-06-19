@@ -17,4 +17,18 @@ add_executable(Repaso_POO main.cpp
         Orco.h
         Orco.cpp
         Inventario.h
-        Inventario.cpp)
+        Inventario.cpp
+        Habilidad.h
+        Habilidad.cpp
+        BolaDeFuego.h
+        BolaDeFuego.cpp
+        Curar.h
+        Curar.cpp
+        ConfiguracionesJuego.h
+        ConfiguracionesJuego.cpp
+        Item.h
+        Item.cpp
+        Pocion.h
+        Pocion.cpp
+        Arma.h
+        Arma.cpp)
