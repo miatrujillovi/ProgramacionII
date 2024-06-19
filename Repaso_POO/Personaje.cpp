@@ -49,5 +49,15 @@ void Personaje::setNivelPersonaje(int newNivelPersonaje) {
 
 //METODOS
 void Personaje::Atacar(){
+    std::cout << "Has atacado" << std::endl;
+}
 
+void Personaje::usarHabilidad(Habilidad object) {
+    auto IT = std::find(Ability->begin(), Ability->end(), object);
+    if (IT != Ability->end()) {
+        IT->Usar();
+    } else {
+        std::cout << "No se ha encontrado su habilidad" << std::endl;
+    }
+    delete Ability;
 }

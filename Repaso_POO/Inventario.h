@@ -1,10 +1,11 @@
 #ifndef REPASO_POO_INVENTARIO_H
 #define REPASO_POO_INVENTARIO_H
 #include <iostream>
+#include "Item.h"
 #include <vector>
 #include <string>
 
-class Inventario {
+class Inventario : public Item {
 public:
     //CONSTRUCTORES
     Inventario(); //Implicito

@@ -1,6 +1,10 @@
 #ifndef REPASO_POO_PERSONAJE_H
 #define REPASO_POO_PERSONAJE_H
 #include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+#include "Habilidad.h"
 
 class Personaje {
 public:
@@ -9,7 +13,9 @@ public:
     Personaje(std::string Nombre, float Altura, float Peso, int NivelPersonaje); //Por Parametros
     virtual ~Personaje(); //Destructor
 
+    //METODOS
     virtual void Atacar();
+    void usarHabilidad(Habilidad object);
 
     //GETTERS Y SETTERS
     std::string getNombre() const;
@@ -26,6 +32,7 @@ private:
     float Altura;
     float Peso;
     int NivelPersonaje;
+    std::vector<Habilidad> *Ability;
 };
 
 
