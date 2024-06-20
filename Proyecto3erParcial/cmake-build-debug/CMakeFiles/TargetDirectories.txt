@@ -1,0 +1,3 @@
+C:/Users/kurom/ProgramacionII/Proyecto3erParcial/cmake-build-debug/CMakeFiles/Proyecto3erParcial.dir
+C:/Users/kurom/ProgramacionII/Proyecto3erParcial/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kurom/ProgramacionII/Proyecto3erParcial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
