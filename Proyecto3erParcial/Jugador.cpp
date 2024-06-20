@@ -18,8 +18,7 @@ Jugador::~Jugador() {
 
 //METODOS
 void Jugador::mostrarInformacion() {
-    std::cout << "Tu nombre es " << getNombre() << std::endl;
-    std::cout << "Tu salud es " << getSalud() << std::endl;
+    Entidad::mostrarInformacion();
     std::cout << "Tu daño actual es: " << DamageJ << std::endl;
     std::cout << "Tu mana actual es: " << Mana << std::endl;
 }

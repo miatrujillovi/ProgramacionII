@@ -10,10 +10,10 @@ public:
     virtual ~Item(); //Destructor
 
     //METODOS
-    virtual void usarItem();
+    virtual void usarItem(std::string object);
 
     //SOBRECARGA DE OPERADORES
-    bool operator==(const Item& otra) const;
+    bool operator==(std::basic_string<char> otra) const;
 
 private:
     std::string NombreI;

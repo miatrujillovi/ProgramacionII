@@ -12,7 +12,7 @@ void Inventario::agregarItem(Item object) {
     item->push_back(object);
 }
 
-void Inventario::eliminarItem(Item object) {
+void Inventario::eliminarItem(std::string object) {
     auto IT = std::find(item->begin(), item->end(), object);
     if(IT != item->end()){
         item->erase(IT);

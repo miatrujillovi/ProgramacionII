@@ -3,32 +3,45 @@
 #include <iostream>
 
 int main() {
-    Personaje jugador("Heroe", 100, 50);
-    Enemigo enemigo("Orco", 80, 15);
+    auto* jugador = new Personaje(2, 100, "Heroe", 100);
+    auto* enemigo = new Enemigo(2, 5, "Orco", 100);
+    auto* boladefuego = new BolaDeFuego(5);
+    auto* curar = new Curar(10);
 
-    Item espada("Espada", "Arma");
-    Item escudo("Escudo", "Defensa");
+    auto* espada = new Item("Espada", "Arma");
+    auto* escudo = new Item("Escudo", "Defensa");
 
-    jugador.agregarItem(espada);
-    jugador.agregarItem(escudo);
+    std::cout << "\n--- Usar Bola de Fuego ---" << std::endl;
+    boladefuego->usarHabilidad();
+    delete boladefuego;
+
+    std::cout << "\n--- Usar Curacion ---" << std::endl;
+    curar->usarHabilidad();
+    delete curar;
 
     std::cout << "\n--- Información del Jugador ---" << std::endl;
-    jugador.mostrarInformacion();
+    jugador->mostrarInformacion();
 
     std::cout << "\n--- Información del Enemigo ---" << std::endl;
-    enemigo.mostrarInformacion();
+    enemigo->mostrarInformacion();
+    delete enemigo;
+
+    std::cout << "\n--- Agregar Item ---" << std::endl;
+    jugador->agregarItem(*espada);
+    jugador->agregarItem(*escudo);
 
     std::cout << "\n--- Usar Item ---" << std::endl;
-    jugador.usarItem("Espada");
+    jugador->usarItem("Espada");
 
-    std::cout << "\n--- Inventario después de usar Espada ---" << std::endl;
-    jugador.mostrarItems();
+    std::cout << "\n--- Ver Inventario ---" << std::endl;
+    jugador->mostrarItems();
 
     std::cout << "\n--- Eliminar Item ---" << std::endl;
-    jugador.eliminarItem("Escudo");
+    jugador->eliminarItem("Escudo");
 
-    std::cout << "\n--- Inventario después de eliminar Escudo ---" << std::endl;
-    jugador.mostrarItems();
+    delete jugador;
+    delete escudo;
+    delete espada;
 
     return 0;
 }

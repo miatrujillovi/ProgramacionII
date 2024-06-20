@@ -7,7 +7,7 @@ class Enemigo : public Entidad{
 public:
     //CONSTRUCTORES
     Enemigo(); //Implicito
-    Enemigo(int DamageE, std::string Armadura,
+    Enemigo(int DamageE, int Armadura,
             std::string Nombre, int Salud); //Por Parametros
     ~Enemigo(); //Destructor
 
@@ -17,12 +17,12 @@ public:
     //GETTERS Y SETTERS
     int getDamageE() const;
     void setDamageE(int newDamageE);
-    std::string getArmadura() const;
-    void setArmadura(std::string newArmadura);
+    int getArmadura() const;
+    void setArmadura(int newArmadura);
 
 private:
     int DamageE;
-    std::string Armadura;
+    int Armadura;
 };
 
 

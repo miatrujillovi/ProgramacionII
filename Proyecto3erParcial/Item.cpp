@@ -16,11 +16,11 @@ Item::~Item() {
 }
 
 //METODOS
-void Item::usarItem() {
-    std::cout << "Se ha utilizado un Item" << std::endl;
+void Item::usarItem(std::string object) {
+    std::cout << "Se ha utilizado " << &object << std::endl;
 }
 
 //SOBRECARGA DE OPERADORES
-bool Item::operator==(const Item &otra) const {
+bool Item::operator==(std::basic_string<char> otra) const {
     return true;
 }

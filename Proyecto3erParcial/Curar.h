@@ -9,10 +9,11 @@ class Curar : public Habilidad, public Entidad {
 public:
     //CONSTRUCTORES
     Curar(); //Implicito
+    Curar(int Costo); //Por Parametros
     ~Curar(); //Destructor
 
     //METODOS
-    void usarHabilidad(int manaUsed, int Parameter) override;
+    void usarHabilidad() override;
 
 private:
     Jugador *jugador;

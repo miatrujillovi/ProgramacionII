@@ -9,10 +9,11 @@ class BolaDeFuego : public Habilidad, public Entidad /*public Jugador*/{
 public:
     //CONSTRUCTORES
     BolaDeFuego(); //Implicito
+    BolaDeFuego(int Costo); //Por Parametros
     ~BolaDeFuego(); //Destructor
 
     //METODOS
-    void usarHabilidad(int manaUsed, int Parameter) override;
+    void usarHabilidad() override;
 
 private:
     Jugador *jugador;

@@ -3,10 +3,10 @@
 //CONSTRUCTORES
 Enemigo::Enemigo() {
     DamageE = 5;
-    Armadura = "N/A";
+    Armadura = 5;
 }
 
-Enemigo::Enemigo(int DamageE, std::string Armadura,
+Enemigo::Enemigo(int DamageE, int Armadura,
                  std::string Nombre, int Salud) : Entidad(Nombre, Salud){
     this -> DamageE = DamageE;
     this -> Armadura = Armadura;
@@ -28,7 +28,7 @@ void Enemigo::mostrarInformacion() {
 int Enemigo::getDamageE() const {
     return DamageE;
 }
-std::string Enemigo::getArmadura() const {
+int Enemigo::getArmadura() const {
     return Armadura;
 }
 
@@ -36,6 +36,6 @@ std::string Enemigo::getArmadura() const {
 void Enemigo::setDamageE(int newDamageE) {
     this -> DamageE = newDamageE;
 }
-void Enemigo::setArmadura(std::string newArmadura) {
+void Enemigo::setArmadura(int newArmadura) {
     this -> Armadura = newArmadura;
 }

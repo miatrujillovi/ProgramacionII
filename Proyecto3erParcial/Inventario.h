@@ -12,7 +12,7 @@ public:
 
     //METODOS
     void agregarItem(Item object);
-    void eliminarItem(Item object);
+    void eliminarItem(std::string object);
     void mostrarItems();
 
 private:

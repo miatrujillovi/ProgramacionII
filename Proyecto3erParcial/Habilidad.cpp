@@ -14,6 +14,16 @@ Habilidad::~Habilidad() {
 }
 
 //METODOS
-void Habilidad::usarHabilidad(int manaUsed, int Parameter) {
+void Habilidad::usarHabilidad() {
     std::cout << "Se ha utilizado una Habilidad" << std::endl;
+}
+
+//GETTERS
+int Habilidad::getCosto() const {
+    return Costo;
+}
+
+//SETTERS
+void Habilidad::setCosto(int newCosto) {
+    this -> Costo = newCosto;
 }

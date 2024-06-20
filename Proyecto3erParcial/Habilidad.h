@@ -10,7 +10,11 @@ public:
     virtual ~Habilidad(); //Destructor
 
     //METODOS
-    virtual void usarHabilidad(int manaUsed, int Parameter);
+    virtual void usarHabilidad();
+
+    //GETTERS Y SETTERS
+    int getCosto() const;
+    void setCosto(int newCosto);
 
 private:
     int Costo;
