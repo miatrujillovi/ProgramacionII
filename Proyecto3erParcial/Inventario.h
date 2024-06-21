@@ -11,12 +11,12 @@ public:
     ~Inventario(); //Destructor
 
     //METODOS
-    void agregarItem(Item object);
+    void agregarItem(const Item& object);
     void eliminarItem(std::string object);
-    void mostrarItems();
+    void mostrarItems() const;
 
 private:
-    std::vector<Item> *item;
+    std::vector<Item> item;
 };
 
 

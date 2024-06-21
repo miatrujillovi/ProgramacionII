@@ -11,7 +11,7 @@ Curar::~Curar() {
 
 //METODOS
 void Curar::usarHabilidad() {
-    this->jugador->setMana(this->jugador->getMana() - getCosto());
+    this->jugador.setMana(this->jugador.getMana() - getCosto());
     this->setSalud(this->getSalud()+50);
     std::cout << "!Te has curado!" << std::endl;
 }

@@ -5,7 +5,7 @@
 #include "Entidad.h"
 #include "Jugador.h"
 
-class BolaDeFuego : public Habilidad, public Entidad /*public Jugador*/{
+class BolaDeFuego : public Habilidad, public Entidad{
 public:
     //CONSTRUCTORES
     BolaDeFuego(); //Implicito
@@ -16,7 +16,7 @@ public:
     void usarHabilidad() override;
 
 private:
-    Jugador *jugador;
+    Jugador jugador;
 };
 
 

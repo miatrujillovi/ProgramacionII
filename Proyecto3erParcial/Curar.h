@@ -16,7 +16,7 @@ public:
     void usarHabilidad() override;
 
 private:
-    Jugador *jugador;
+    Jugador jugador;
 };
 
 
