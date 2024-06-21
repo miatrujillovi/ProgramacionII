@@ -8,25 +8,28 @@ Inventario::~Inventario() {
 }
 
 //METODOS
-void Inventario::agregarItem(const Item& object) {
-    item.push_back(object);
-    std::cout << "Se ha agregado " << object.getNombreI() << " exitosamente" << std::endl;
+void Inventario::agregarItem(Item* object) {
+    items.push_back(object);
+    std::cout << "Se ha agregado " << object->getNombreI() << " exitosamente" << std::endl;
 }
 
 void Inventario::eliminarItem(std::string object) {
-    auto IT = std::find(item.begin(), item.end(), object);
-    if(IT != item.end()){
-        item.erase(IT);
-        std::cout << "Se ha eliminado " << IT->getNombreI() << " exitosamente" << std::endl;
+    auto IT = std::find_if(items.begin(), items.end(), [&object](Item* item) {
+        return item->getNombreI() == object;
+    });
+
+    if (IT != items.end()) {
+        std::cout << "Se ha eliminado " << (*IT)->getNombreI() << " exitosamente" << std::endl;
+        items.erase(IT);
     } else {
         std::cout << "No se ha encontrado su item" << std::endl;
     }
 }
 
-void Inventario::mostrarItems() const {
+void Inventario::mostrarItems(){
     std::cout << "Estos son sus Items actuales: " << std::endl;
-    for(int i = 0; i < item.size(); i++){
-        auto IT = item.at(i).getNombreI();
+    for(int i = 0; i < items.size(); i++){
+        auto IT = items.at(i)->getNombreI();
         std::cout << IT << std::endl;
     }
 }

@@ -26,10 +26,6 @@ void Item::usarItem(std::string object) {
 bool Item::operator==(std::basic_string<char> otra) const {
     return true;
 }
-/*std::ostream& operator<<(std::ostream& os, const Item& item) {
-    os << item.getNombreI();
-    return os;
-}*/
 
 //GETTERS
 std::string Item::getNombreI() const {

@@ -8,8 +8,8 @@ int main() {
     auto* boladefuego = new BolaDeFuego(5);
     auto* curar = new Curar(10);
 
-    auto* espada = new Item("Espada", "Arma");
-    auto* escudo = new Item("Escudo", "Defensa");
+    auto* Espada = new Item("Espada", "Arma");
+    auto* Escudo = new Item("Escudo", "Defensa");
 
     std::cout << "\n--- Informacion del Jugador ---" << std::endl;
     jugador->mostrarInformacion();
@@ -27,21 +27,21 @@ int main() {
     delete curar;
 
     std::cout << "\n--- Agregar Item ---" << std::endl;
-    jugador->agregarItem(*espada);
-    jugador->agregarItem(*escudo);
+    jugador->agregarItem(Espada);
+    jugador->agregarItem(Escudo);
 
     std::cout << "\n--- Usar Item ---" << std::endl;
     jugador->usarItem("Espada");
 
     std::cout << "\n--- Eliminar Item ---" << std::endl;
-    jugador->eliminarItem("Escudo");
+    jugador->eliminarItem("Espada");
 
     std::cout << "\n--- Ver Inventario ---" << std::endl;
     jugador->mostrarItems();
 
     delete jugador;
-    delete escudo;
-    delete espada;
+    delete Escudo;
+    delete Espada;
 
     return 0;
 }

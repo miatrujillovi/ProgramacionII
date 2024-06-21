@@ -17,7 +17,6 @@ public:
 
     //SOBRECARGA DE OPERADORES
     bool operator==(std::basic_string<char> otra) const;
-    //friend std::ostream& operator<<(std::ostream& os, const Item& item);
 
     //GETTERS Y SETTERS
     std::string getNombreI() const;

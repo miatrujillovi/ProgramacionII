@@ -3,6 +3,7 @@
 #include <iostream>
 #include "Item.h"
 #include <vector>
+#include <algorithm>
 
 class Inventario : public Item{
 public:
@@ -11,12 +12,12 @@ public:
     ~Inventario(); //Destructor
 
     //METODOS
-    void agregarItem(const Item& object);
+    void agregarItem(Item* object);
     void eliminarItem(std::string object);
-    void mostrarItems() const;
+    void mostrarItems();
 
 private:
-    std::vector<Item> item;
+    std::vector<Item*> items;
 };
 
 
